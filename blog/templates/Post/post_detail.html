@@ -102,9 +102,9 @@
                   <h3>Tag Cloud</h3>
                   <div class="tagcloud">
                       
-                      {% for tag in all_tags %}
-                        <a href="{% url 'blog:post_by_tag' tag %}" class="tag-cloud-link">{{tag}}</a>
-                      {% endfor %}
+                        {% for tag in all_tags %}
+                          <a href="{% url 'blog:post_by_tag' tag %}" class="tag-cloud-link">{{tag}}</a>
+                        {% endfor %}
                   </div>
                 </div>
 

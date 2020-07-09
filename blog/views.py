@@ -8,7 +8,8 @@ from django.db.models import Q
 
 
 def post_list(request):
-    post_list = Post.objects.all()
+    post_list = Post.objects.all() #to get all posts
+
 
     ## search 
     search_query = request.GET.get('q')
